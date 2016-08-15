@@ -1,0 +1,183 @@
+body{
+  background-color: #050505;
+  color:white;
+  max-width: 1215px;
+  margin: auto;
+  font-family: 'Signika', sans-serif;
+  color: #DDD;
+  letter-spacing: 1px;
+}
+
+.center{
+  margin: auto;
+}
+#name, #title{
+  text-align: center;
+  margin: 0;
+}
+
+#name{
+  margin-top: 10px;
+  font-size: 4em;
+}
+
+#title{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+
+
+#skinsSlideshow .desoslide-wrapper img{
+  width: 1215px;
+}
+
+.thumbnail{
+text-align: center;
+padding: 0;
+}
+
+.thumbnail li{
+  display: inline;
+  margin-left:10px;
+  margin-right: 10px;
+  list-style: none;
+}
+.thumbnail li a img{
+  width: 100px;
+}
+
+#tags ul{
+  text-align: center;
+  padding: 0;
+}
+
+#tags ul li{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+#info{
+  text-align: center;
+}
+
+#info div{
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+.circles-text{
+  left:-8px !important;
+}
+
+#spells{
+  display: none;
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+#spells .flex_item {
+  text-align: center;
+  margin: 10px;
+  width: 180px;
+}
+
+#spells .flex_item img{
+  border: 3px solid #292929;
+  border-radius: 50%;
+  margin: auto;
+  display:block;
+}
+
+#spells .flex_item h3{
+  margin: 0px;
+  margin-bottom: .3em;
+}
+
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 2em;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+h3{
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.selectKey{
+  border: 3px solid gold;
+}
+
+.currentSpell{
+  /*border: 3px solid skyblue;*/
+  display:block;
+}
+
+#spells{
+  text-align: center;
+}
+#keyboard{
+  list-style: none;
+  padding: 0px;
+}
+
+#keyboard li{
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#keyboard li button{
+  width: 50px;
+  height:50px;
+  background-color: transparent;
+  border-radius: 10%;
+  border-color: #DDD;
+  color: #EEE;
+  font-size: 1.5em;
+}
+
+#abilities{
+  width: 100%;
+}
+#abilities div{
+  display: none;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+a:link    { color: white }  /* unvisited links */
+a:visited { color: white }  /* visited links   */
+a:hover   { color: white }  /* user hovers     */
+a:active  { color: white }  /* active links    */
+
+@media (max-width: 1240px) {
+  #skinsSlideshow .desoslide-wrapper img{
+    width:100%;
+  }
+}
